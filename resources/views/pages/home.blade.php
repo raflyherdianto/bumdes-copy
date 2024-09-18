@@ -54,8 +54,8 @@
 </div>
 
 
-{{-- ASD --}}
-<div class="my-5 container d-none d-md-block">
+{{-- Video --}}
+<div class="my-5 container d-none d-lg-block">
     <div class="d-flex w-full " style="position: relative;">
         <div class="text-white p-5"
             style="height: fit-content; background: #4F6839; background-image: url('images/background.png'); background-repeat: repeat; background-size: 1100px auto; width: 40%; z-index: 2; position: relative; margin-right: -50px;">
@@ -84,7 +84,7 @@
     </div>
 </div>
 
-<div class="my-5 container d-block d-md-none">
+<div class="my-5 container d-block d-lg-none">
     <div class="w-full " style="position: relative;">
         <div class="text-white p-5 mb-5"
             style="height: fit-content; background: #4F6839; background-image: url('images/background.png'); background-repeat: repeat; background-size: 1100px auto; width: 100%; z-index: 2; position: relative; margin-right: -50px;">

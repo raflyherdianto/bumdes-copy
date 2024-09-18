@@ -6,13 +6,14 @@
             </a>
 
             <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 d-none d-lg-flex">
-                <li><a href="/home" class="nav-link px-4 text-black" style="font-weight: 600">Beranda</a></li>
-                <li><a href="/e-catalog" class="nav-link px-4 text-black" style="font-weight: 600">E-Katalog</a></li>
-                <li><a href="/simpan-pinjam" class="nav-link px-4 text-black" style="font-weight: 600">Simpan Pinjam</a>
+                <li><a href="/home" class="nav-link px-4 text-black {{ Request::is('home') ? 'nav-active' : "" }}" style="font-weight: 600">Beranda</a></li>
+                <li><a href="/e-catalog" class="nav-link px-4 text-black {{ Request::is('e-catalog') ? 'nav-active' : "" }}" style="font-weight: 600">E-Katalog</a></li>
+                <li><a href="/simpan-pinjam" class="nav-link px-4 text-black {{ Request::is('simpan-pinjam') ? 'nav-active' : "" }}" style="font-weight: 600">Simpan Pinjam</a>
                 </li>
-                <li><a href="/data-masyarakat" class="nav-link px-4 text-black" style="font-weight: 600">Data
+                <li><a href="/data-masyarakat" class="nav-link px-4 text-black {{ Request::is('data-masyarakat') ? 'nav-active' : "" }}" style="font-weight: 600">Data
                         Masyarakat</a></li>
             </ul>
+            
             <div class="dropdown text-end ">
                 <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle d-lg-none"
                     data-bs-toggle="dropdown" aria-expanded="false">
