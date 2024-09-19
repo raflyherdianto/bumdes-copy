@@ -27,6 +27,6 @@
             </div>
         </div>
     </footer>
-    <p class="text-center pt-4">© Copyright 2024, Made with ❤️ by <strong>Inaharsa Technology</strong>
+    <p class="text-center pt-4 px-5">© Copyright 2024, Made with ❤️ by <strong>Inaharsa Technology</strong>
     </p>
 </div>
