@@ -6,7 +6,7 @@
 {{-- Hero Section --}}
 <div class="hero">
     {{-- content --}}
-    <div>
+    <div class="px-3">
         <div class="text-center ">
             <h1>BUMDES Desa Sumberpucung</h1>
             <h1>Kecamatan Sumberpucung,</h1>
@@ -68,8 +68,11 @@
                 upaya pelestarian lingkungan dan
                 budaya secara berkelanjutan
             </p>
-            <a href="/about" class="btn bg-yellow text-white px-5 py-3" style="border-radius: 0px; font-size: 18px">MORE
-                >>></a>
+            <a href="" class="bg-yellow text-white nav-link px-5 py-3 d-block mx-auto mx-md-0 text-center"
+                style="width: fit-content">
+                MORE >>>
+            </a>
+
         </div>
         <div class="w-100" style="z-index: 1; position: relative;">
             <div class="text-end">
@@ -147,7 +150,7 @@
 <div class="my-5">
     <div class="container ">
         <p class="text-center" style="font-size: 20">Cari kebutuhan anda di</p>
-        <h2 class="text-center mb-5"><span style="font-weight: bold;font-size: 42px">E-Katalog</span> Desa Sumberpucung
+        <h2 class="text-center mb-5"><span style="font-weight: bold;">E-Katalog</span> Desa Sumberpucung
         </h2>
 
         <div class="row">
