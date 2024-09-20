@@ -12,8 +12,9 @@
                 <div class="d-flex justify-content-between align-items-center">
                     <h6 style="font-weight: 600">Grafik Pekerjaan</h6>
                 </div>
-                <div class="d-flex justify-content-center">
-                    <div id="pieChart"></div>
+                <div class="d-flex justify-content-center ">
+                    <div id="pieChart" class="d-none d-md-block"></div>
+                    <div id="pieChart1" class="d-block d-md-none"></div>
                 </div>
                 <h6 style="font-weight: 600">Tabel Pekerjaan</h6>
                 <div class="table-responsive">
@@ -118,19 +119,18 @@
             type: 'pie',
         },
         labels: names,
-        responsive: [
-            {
-            breakpoint: 1200,
-            options: {
-                chart: {
-                    width: 700
-                },
-                legend: {
-                    position: 'bottom'
-                }
-            }
+        colors: colors,
+        legend:{
+            show:false
+        }
+    };
+    var options1 = {
+        series: values,
+        chart: {
+            width: 300,
+            type: 'pie',
         },
-    ],
+        labels: names,
         colors: colors,
         legend:{
             show:false
@@ -138,6 +138,8 @@
     };
 
     var chart = new ApexCharts(document.querySelector("#pieChart"), options);
+    var chart1 = new ApexCharts(document.querySelector("#pieChart1"), options1);
     chart.render();
+    chart1.render();
 </script>
 @endsection
