@@ -100,7 +100,7 @@
                 upaya pelestarian lingkungan dan
                 budaya secara berkelanjutan
             </p>
-            <a href="/about" class="btn bg-yellow text-white px-5 py-3" style="border-radius: 0px; font-size: 18px">MORE
+            <a href="/about" class="nav-link bg-yellow text-white px-5 py-3" style="border-radius: 0px; font-size: 18px">MORE
                 >>></a>
         </div>
         <div class="w-100" style="z-index: 1; position: relative;">
