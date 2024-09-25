@@ -25,11 +25,6 @@
                             style="border-radius: 30px">Beli</a>
                     </div>
                     <div class="d-flex justify-content-between align-items-center">
-                        <div>
-                            @for ($star = 1; $star <= 5; $star++) <img src="{{ asset('images/star.png') }}" alt="Star"
-                                style="width: 20px">
-                                @endfor
-                        </div>
                         <h3 style="font-weight: bold">Rp.{{ $item['price'] }}</h3>
                     </div>
                 </div>

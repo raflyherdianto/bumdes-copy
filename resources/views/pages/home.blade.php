@@ -150,7 +150,7 @@
 <div class="my-5">
     <div class="container ">
         <p class="text-center" style="font-size: 20">Cari kebutuhan anda di</p>
-        <h2 class="text-center mb-5"><span style="font-weight: bold;">E-Katalog</span> Desa Sumberpucung
+        <h2 class="text-center mb-5"><span style="font-weight: bold; font-size: 24px">E-Katalog</span> Desa Sumberpucung
         </h2>
 
         <div class="row">
@@ -164,11 +164,6 @@
                                 style="border-radius: 30px">Beli</a>
                         </div>
                         <div class="d-flex justify-content-between align-items-center">
-                            <div>
-                                @for ($star = 1; $star <= 5; $star++) <img src="{{ asset('images/star.png') }}"
-                                    alt="Star" style="width: 20px">
-                                    @endfor
-                            </div>
                             <h3 style="font-weight: bold">Rp.7000</h3>
                         </div>
                     </div>
